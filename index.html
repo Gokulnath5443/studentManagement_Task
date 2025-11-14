@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding-top: 50px;
+            background-image:url(./472882a185c5647004c2c8eadc2485e0_t.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            font-size: xxx-large;
+            color: blue;
+        }
+         h1:hover{
+            text-decoration: underline;
+            color: rgb(80, 46, 46);
+            
+        }
+        button {
+            padding: 12px 25px;
+            margin: 90px;
+            margin-top: 90px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 70px;
+            border: none;
+            background-color: black;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        button:hover{
+             background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Management System</h1>
+
+    <button onclick="addStudent()">Add Student</button>
+    <button onclick="showStudents()">Show Students</button>
+    <button onclick="updateStudent()">Update Student</button>
+    <button onclick="deleteStudent()">Delete Student</button>
+    <button onclick="searchStudent()">search Student</button>
+
+    <script src="studentManagement.js"></script>
+
+</body>
+</html>

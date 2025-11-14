@@ -1,17 +1,17 @@
 //Task 1: Create and Access Object Properties
 // ans:
 
-// const car = {
-//   brand: "Toyota",
-//   model: "Camry",
-//   year: 2022,
-//   color: "Blue"
-// };
+const car = {
+  brand: "Toyota",
+  model: "Camry",
+  year: 2022,
+  color: "Blue"
+};
 
-// console.log(car.brand)
-// console.log(car.model)
-// console.log(car.year)
-// console.log(car.color)
+console.log(car.brand)
+console.log(car.model)
+console.log(car.year)
+console.log(car.color)
 
 // 2.Task 2: Add, Update, and Delete Properties
 // ans:
