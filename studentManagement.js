@@ -1,4 +1,6 @@
 
+// 💻 Student Management System
+// ans:self code
 
  let students=[  {
     id: 1001,

@@ -1,34 +1,33 @@
 //Task 1: Create and Access Object Properties
-// ans:
+// ans:self code
 
-const car = {
-  brand: "Toyota",
-  model: "Camry",
-  year: 2022,
-  color: "Blue"
-};
+// const car = {
+//   brand: "Toyota",
+//   model: "Camry",
+//   year: 2022,
+//   color: "Blue"
+// };
 
-console.log(car.brand)
-console.log(car.model)
-console.log(car.year)
-console.log(car.color)
+// for(let key in car){
+//     console.log(car[key])
+// }
 
 // 2.Task 2: Add, Update, and Delete Properties
-// ans:
+// ans:self code
 
-// let obj=new Object()
-//     obj.name="gokulnath",
-//     obj.age=21
-// console.log("Step 1:",obj)
-//     obj.country="india"
-// console.log("Step 2:",obj)
-//     obj.age=22
-// console.log("Step 3:",obj)
-//     delete obj.name
-// console.log("Final answer:", obj)
+// let person=new Object()
+//     person.name="gokulnath",
+//     person.age=21
+// console.log("Step 1:",person)
+//     person.country="india"
+// console.log("Step 2:",person)
+//     person.age=22
+// console.log("Step 3:",person)
+//     delete person.name
+// console.log("Final answer:", person)
 
 // 3.Task 3: Object with Methods
-// ans:
+// ans:self code
 // let a=Number(prompt("Enter your value :"))
 // let b=Number(prompt("Enter your value :"))
 // let cal = {
@@ -48,7 +47,7 @@ console.log(car.color)
 
 
 // Task 4: Nested Object Access
-// ans:
+// ans:self code
 
 // const student = {
 //   name: "Gokul",
@@ -67,7 +66,7 @@ console.log(car.color)
 // console.log("Science Mark:",(student.marks.science))
 
 // Task 5: Loop Through Object and Count Properties
-// ans:
+// ans:self code
 
 // const laptop = {
 //   brand: "HP",
@@ -79,7 +78,8 @@ console.log(car.color)
 // console.log("Properties Count:", Object.keys(laptop).length)
 
 // Task 6: Shallow Copy vs Deep Copy
-// ans:
+// ans:discuss by batch members but not code copy only for learning
+
 // const student = {
 //   name: "John",
 //   marks: { math: 90, science: 85 }
@@ -91,7 +91,7 @@ console.log(car.color)
 
 
 // Task 7: Merge Multiple Objects
-// ans:
+// ans:self code
 
 // const obj1 = { id: 101, name: "Alice" };
 // const obj2 = { age: 25 };
@@ -107,7 +107,7 @@ console.log(car.color)
 // console.log(obj4)
 
 // Task 8: Freeze and Modify
-// ans:
+// ans:self code
 
 // const settings = {
 //   theme: "dark",
@@ -121,7 +121,7 @@ console.log(car.color)
 
 
 // Task 9: Object Destructuring
-// ans:
+// ans:self code
 
 // const user = {
 //   name: "Ravi",
@@ -144,7 +144,7 @@ console.log(car.color)
 // console.log("country:",country)
 
 // Task 10: Count Nested Object Properties
-// ans:
+// ans:discuss by batch members but not code copy only for learning
 
 // const person = {
 //   name: "Kumar",
@@ -166,4 +166,4 @@ console.log(car.color)
 //     }
 //     return count
 // }
-// console.log(fn(person))
+// console.log("Total Properties:",fn(person))
